@@ -1,0 +1,6 @@
+- params:
+    git:
+      repoName: frogbot-deluxe
+      branches:
+        - main
+    jfrogPlatform:
