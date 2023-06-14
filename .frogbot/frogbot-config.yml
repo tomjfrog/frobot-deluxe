@@ -3,4 +3,7 @@
       repoName: frogbot-deluxe
       branches:
         - main
-    jfrogPlatform:
+    scan:
+      packageManager: npm
+      installDepsCmd: npm install
+      includeAllVulnerabilities: "TRUE"
