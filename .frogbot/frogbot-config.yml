@@ -6,4 +6,4 @@
     scan:
       packageManager: npm
       installDepsCmd: npm install
-      includeAllVulnerabilities: "TRUE"
+      includeAllVulnerabilities: true
