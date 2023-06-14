@@ -1,5 +1,4 @@
 # Frogbot Deluxe
-
 This project is a showcase of an NPM project that uses both "modes" of Frogbot: Scan and Fix & Scan PR
 
 ## Scan and Fix
