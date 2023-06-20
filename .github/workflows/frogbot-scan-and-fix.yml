@@ -18,7 +18,10 @@ jobs:
       matrix:
         branch: [ "main" ]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ matrix.branch }}
+      # Install prerequisites
       - name: Setup NodeJS
         uses: actions/setup-node@v3
         with:
