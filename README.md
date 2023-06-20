@@ -13,3 +13,4 @@ block a PR from being merged until the vulnerabilities are fixed.
 The configuration is stored in a file called `frogbot-config.yml` in the root of the project.  The file contains shared
 configuration variables used by both modes of Frogbot.
 
+foo
