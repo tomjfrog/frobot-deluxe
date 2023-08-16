@@ -20,6 +20,7 @@
     "jasmine-node": "^1.14.5",
     "pack-zip": "^0.2.2",
     "request": "2.9.3"
+    "pac-resolver": "5.0.0"
   },
   "devDependencies": {
     "pack-zip": "^0.2.2"
