@@ -3,6 +3,7 @@ var app = express();
 var port = 8099;
 var primes = require('./primes.js');
 var fs = require('fs');
+var protobuf = require('protobufjs');
 
 app.get('/', function(req, res){
     //res.writeHead(200, {'Content-type': 'text/html'});
@@ -17,6 +18,8 @@ app.get('/', function(req, res){
 app.get('/isPrime/:number', function(req, res){
     res.status(200).send(primes.isPrime(req.params.number));    
 })
+
+protobuf.util.setProperty({}, "__proto__.someprop", "somevalue");
 
 exports.stop = function(){
     server.close();
